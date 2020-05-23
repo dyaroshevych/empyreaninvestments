@@ -1,0 +1,45 @@
+.Navigation {
+  position: sticky;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 7px 0;
+
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &_links {
+    display: flex;
+
+    li:not(:last-of-type) {
+      margin-right: 50px;
+    }
+  }
+
+  &_link {
+    position: relative;
+    color: #112d42;
+    font-size: 2rem;
+    font-weight: 500;
+
+    &::before {
+      position: absolute;
+      content: "";
+      left: 50%;
+      bottom: -3px;
+      transform: translateX(-50%);
+      width: 0;
+      height: 2px;
+      background-color: #112d42;
+      transition: width 0.25s ease;
+    }
+
+    &:hover::before {
+      width: 100%;
+    }
+  }
+}

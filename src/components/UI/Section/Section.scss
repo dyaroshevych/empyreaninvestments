@@ -1,0 +1,23 @@
+.Section {
+  margin: 150px 0;
+
+  &:first-of-type {
+    margin-top: 100px;
+  }
+
+  &:nth-of-type(odd) {
+    .Section_container {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &_container {
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    max-height: fit-content;
+
+    & > div {
+      width: 50%;
+    }
+  }
+}
