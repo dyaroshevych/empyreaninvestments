@@ -11,7 +11,6 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
-  background-color: #03a9f4;
 }
 
 ul {
@@ -28,10 +27,8 @@ a {
 
 h1 {
   font-size: 4.5rem;
-  color: #fff;
-  text-align: center;
+  letter-spacing: 0.7rem;
   text-transform: uppercase;
-  margin-top: 100px;
 }
 
 h2 {
@@ -42,4 +39,8 @@ p,
 li {
   font-size: 1.6rem;
   line-height: 2.2rem;
+}
+
+p {
+  line-height: 3rem;
 }

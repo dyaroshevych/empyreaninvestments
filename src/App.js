@@ -1,7 +1,7 @@
 import React from "react";
 
 import { HomePage } from "./components/pages";
-import { Navigation } from "./components/UI";
+import { Navigation } from "./components/sections";
 
 import "./App.scss";
 

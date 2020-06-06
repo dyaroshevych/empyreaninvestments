@@ -1,0 +1,50 @@
+.Links {
+  padding: 100px 0;
+
+  &_content {
+    display: flex;
+  }
+
+  &_item {
+    $this: &;
+    position: relative;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 30px;
+    text-align: center;
+
+    &:first-of-type {
+      margin-right: 1px;
+    }
+
+    &BackgroundShade {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    &:first-of-type #{$this}BackgroundShade {
+      background-color: rgba(150, 22, 36, 0.7);
+    }
+
+    &:last-of-type #{$this}BackgroundShade {
+      background-color: rgba(0, 64, 127, 0.7);
+    }
+
+    &Text {
+      width: 80%;
+      padding: 20px 0;
+      display: inline-block;
+      position: relative;
+      z-index: 2;
+      border: 1px solid #fff;
+      font-size: 3rem;
+      color: #fff;
+    }
+  }
+}

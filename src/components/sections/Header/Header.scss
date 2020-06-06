@@ -1,0 +1,20 @@
+.Header {
+  padding: 210px 0 130px;
+  background-image: url(../../../assets/img/header-bg.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+  &_content {
+    max-width: 700px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: #fff;
+
+    h1 {
+      margin-bottom: 20px;
+    }
+  }
+}
