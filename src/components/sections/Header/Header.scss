@@ -1,20 +1,37 @@
+@import "../../../index.scss";
+
 .Header {
-  padding: 210px 0 130px;
-  background-image: url(../../../assets/img/header-bg.jpg);
+  position: relative;
+  min-height: calc(100vh - 66px);
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(../../../assets/img/header-bg.jpg);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  color: #fff;
+  text-align: center;
 
-  &_content {
-    max-width: 700px;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    color: #fff;
+  &_scroll {
+    &Container {
+      cursor: pointer;
+      position: absolute;
+      left: 50%;
+      bottom: 20px;
+      transform: translateX(-50%);
+    }
 
-    h1 {
-      margin-bottom: 20px;
+    &Line {
+      @include tablet-md {
+        width: 2px;
+        height: 50px;
+        background-color: #fff;
+        margin: 0 auto 10px;
+      }
     }
   }
 }

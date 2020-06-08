@@ -1,0 +1,30 @@
+@import "../../../index.scss";
+
+.About {
+  &_content {
+    @include desktop-sm {
+      display: grid;
+      column-gap: 20px;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  &_logoContainer {
+    display: none;
+
+    @include desktop-sm {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .Logo {
+        width: 450px;
+        max-width: 100%;
+      }
+    }
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+}

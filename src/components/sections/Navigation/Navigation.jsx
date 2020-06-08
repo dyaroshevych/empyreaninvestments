@@ -1,14 +1,19 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 
 import { Wrapper } from "../../../hoc";
 import { Logo } from "../../UI";
 
 import "./Navigation.scss";
 
-const NavigationLinks = ({ links }) => (
+const NavigationLinks = ({ links, location }) => (
   <ul className="Navigation_links">
     {links.map(({ name, link }) => (
-      <li key={link}>
+      <li
+        key={link}
+        className="Navigation_linkContainer"
+        active={String(link === location)}
+      >
         <a href={link} className="Navigation_link">
           {name}
         </a>
@@ -18,6 +23,8 @@ const NavigationLinks = ({ links }) => (
 );
 
 const Navigation = () => {
+  const { pathname: location } = useLocation();
+
   const links = [
     { name: "Home", link: "/" },
     { name: "Team", link: "/team" },
@@ -30,13 +37,13 @@ const Navigation = () => {
       <Wrapper>
         <ul className="Navigation_container">
           <li className="Navigation_linksContainer">
-            <NavigationLinks links={links.slice(0, 2)} />
+            <NavigationLinks links={links.slice(0, 2)} location={location} />
           </li>
           <li>
             <Logo />
           </li>
           <li className="Navigation_linksContainer">
-            <NavigationLinks links={links.slice(2)} />
+            <NavigationLinks links={links.slice(2)} location={location} />
           </li>
         </ul>
       </Wrapper>

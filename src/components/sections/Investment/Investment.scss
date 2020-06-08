@@ -1,0 +1,47 @@
+@import "../../../index.scss";
+
+.Investment {
+  margin: 0;
+  padding: 100px 0;
+  min-height: calc(100vh - 66px);
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(../../../assets/img/investment-bg.webp);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h2 {
+    color: #fff;
+    text-align: center;
+  }
+
+  &_list {
+    margin-top: 30px;
+    display: grid;
+    gap: 20px;
+
+    @include mobile-md {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include tablet-lg {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  &_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+  }
+}

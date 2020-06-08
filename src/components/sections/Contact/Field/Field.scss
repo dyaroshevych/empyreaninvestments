@@ -1,0 +1,38 @@
+.Field {
+  &:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+
+  &_input,
+  &_textarea {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0 4px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    color: #000;
+    font-size: 1.4rem;
+    line-height: normal;
+    border-radius: 2px;
+
+    &:focus {
+      background: #fff;
+      outline-color: #97cce8;
+    }
+  }
+
+  &_label {
+    font-size: 1.6rem;
+  }
+
+  &_required {
+    color: red;
+    margin-left: 5px;
+  }
+
+  &_error {
+    font-size: 1.2rem;
+    color: red;
+  }
+}

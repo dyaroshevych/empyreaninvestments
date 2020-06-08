@@ -1,0 +1,29 @@
+@import "../../../index.scss";
+
+.Team {
+  &_content {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+
+    @include tablet-lg {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 50px;
+    }
+  }
+
+  &_member {
+    &:not(:last-of-type) {
+      margin-bottom: 50px;
+    }
+
+    &:nth-of-type(3) {
+      grid-row: 2;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+    }
+  }
+}
