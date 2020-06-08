@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/empyreaninvestments/static/css/main.a9477927.chunk.css",
+    "main.js": "/empyreaninvestments/static/js/main.1cea2f31.chunk.js",
+    "main.js.map": "/empyreaninvestments/static/js/main.1cea2f31.chunk.js.map",
+    "runtime-main.js": "/empyreaninvestments/static/js/runtime-main.1fc57353.js",
+    "runtime-main.js.map": "/empyreaninvestments/static/js/runtime-main.1fc57353.js.map",
+    "static/js/2.655b047f.chunk.js": "/empyreaninvestments/static/js/2.655b047f.chunk.js",
+    "static/js/2.655b047f.chunk.js.map": "/empyreaninvestments/static/js/2.655b047f.chunk.js.map",
+    "index.html": "/empyreaninvestments/index.html",
+    "precache-manifest.dd561c8b187eaa0365178898cf592ec3.js": "/empyreaninvestments/precache-manifest.dd561c8b187eaa0365178898cf592ec3.js",
+    "service-worker.js": "/empyreaninvestments/service-worker.js",
+    "static/css/main.a9477927.chunk.css.map": "/empyreaninvestments/static/css/main.a9477927.chunk.css.map",
+    "static/js/2.655b047f.chunk.js.LICENSE.txt": "/empyreaninvestments/static/js/2.655b047f.chunk.js.LICENSE.txt",
+    "static/media/Header.scss": "/empyreaninvestments/static/media/header-bg.476c6235.jpg",
+    "static/media/Investment.scss": "/empyreaninvestments/static/media/investment-bg.ed2a5139.webp",
+    "static/media/link-strategy.jpg": "/empyreaninvestments/static/media/link-strategy.30a3f003.jpg",
+    "static/media/link-team.jpg": "/empyreaninvestments/static/media/link-team.7ee73e5e.jpg",
+    "static/media/location.svg": "/empyreaninvestments/static/media/location.6719431d.svg",
+    "static/media/logo.webp": "/empyreaninvestments/static/media/logo.48604ea3.webp",
+    "static/media/mail.svg": "/empyreaninvestments/static/media/mail.bfe8a6b5.svg",
+    "static/media/phone.svg": "/empyreaninvestments/static/media/phone.578398ce.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fc57353.js",
+    "static/js/2.655b047f.chunk.js",
+    "static/css/main.a9477927.chunk.css",
+    "static/js/main.1cea2f31.chunk.js"
+  ]
+}
