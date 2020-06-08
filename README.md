@@ -10,5 +10,6 @@ Technologies used:
 React libraries used:
 
 - react-router-dom
+- react-scroll
 
 Deployed with: GitHub Pages
