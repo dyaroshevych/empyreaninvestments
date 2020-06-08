@@ -89,7 +89,7 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <section className="Contact">
+      <section className="Contact" centered={String(!!this.props.centered)}>
         <Wrapper>
           <h2>Contact us</h2>
           <form className="Contact_form">

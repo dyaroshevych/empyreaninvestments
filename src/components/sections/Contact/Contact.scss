@@ -1,4 +1,24 @@
+@import "../../../index.scss";
+
 .Contact {
+  &[centered="true"] {
+    @include tablet-md {
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+
+      h2 {
+        text-align: center;
+      }
+
+      .Contact_button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+
   &_form {
     margin-top: 30px;
   }
