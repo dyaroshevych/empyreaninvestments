@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import { Wrapper } from "../../../hoc";
 import { Mobile } from "./";
@@ -15,9 +15,9 @@ const NavigationLinks = ({ links, location }) => (
         className="Navigation_linkContainer"
         active={String(link === location)}
       >
-        <a href={link} className="Navigation_link">
+        <Link to={link} className="Navigation_link">
           {name}
-        </a>
+        </Link>
       </li>
     ))}
   </ul>

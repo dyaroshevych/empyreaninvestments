@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { Backdrop } from "../../../UI";
 
@@ -45,9 +46,13 @@ const Mobile = ({ links }) => {
           </li>
           {links.map(({ name, link }) => (
             <li key={link} className="NavigationMobile_linkContainer">
-              <a href={link} className="NavigationMobile_link">
+              <Link
+                to={link}
+                className="NavigationMobile_link"
+                onClick={handleNavigationToggle}
+              >
                 {name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
