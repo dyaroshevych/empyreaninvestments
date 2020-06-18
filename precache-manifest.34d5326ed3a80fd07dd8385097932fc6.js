@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3bc5b371dfdbcf54d37f44fd72e54df8",
+    "revision": "59c924c6608961015f14962f93e788a5",
     "url": "/empyreaninvestments/index.html"
   },
   {
-    "revision": "94bbf303aed0c9e44cd3",
-    "url": "/empyreaninvestments/static/css/main.a9477927.chunk.css"
+    "revision": "8c75cef3421eb276b4b5",
+    "url": "/empyreaninvestments/static/css/main.2b473454.chunk.css"
   },
   {
-    "revision": "0d97dc4185388fe63c61",
-    "url": "/empyreaninvestments/static/js/2.9b29aa4a.chunk.js"
+    "revision": "5ba320995eda649af5ee",
+    "url": "/empyreaninvestments/static/js/2.38b789ed.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/empyreaninvestments/static/js/2.9b29aa4a.chunk.js.LICENSE.txt"
+    "url": "/empyreaninvestments/static/js/2.38b789ed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94bbf303aed0c9e44cd3",
-    "url": "/empyreaninvestments/static/js/main.068bc071.chunk.js"
+    "revision": "8c75cef3421eb276b4b5",
+    "url": "/empyreaninvestments/static/js/main.cd3899a9.chunk.js"
   },
   {
     "revision": "b2bc5e7040dac9528b9d",
     "url": "/empyreaninvestments/static/js/runtime-main.1fc57353.js"
+  },
+  {
+    "revision": "443cc0d0df8c07dc19cce1d5aa196554",
+    "url": "/empyreaninvestments/static/media/arrow-right.443cc0d0.svg"
   },
   {
     "revision": "476c6235fdf8832eb1047307665426ae",
