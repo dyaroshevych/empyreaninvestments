@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "59c924c6608961015f14962f93e788a5",
+    "revision": "7bb491b0210fe01012580600c1590254",
     "url": "/empyreaninvestments/index.html"
   },
   {
-    "revision": "8c75cef3421eb276b4b5",
+    "revision": "f17776d1b0d28ecf81b4",
     "url": "/empyreaninvestments/static/css/main.2b473454.chunk.css"
   },
   {
-    "revision": "5ba320995eda649af5ee",
-    "url": "/empyreaninvestments/static/js/2.38b789ed.chunk.js"
+    "revision": "a1a34e4e3da35a870679",
+    "url": "/empyreaninvestments/static/js/2.4f832db5.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/empyreaninvestments/static/js/2.38b789ed.chunk.js.LICENSE.txt"
+    "url": "/empyreaninvestments/static/js/2.4f832db5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8c75cef3421eb276b4b5",
-    "url": "/empyreaninvestments/static/js/main.cd3899a9.chunk.js"
+    "revision": "f17776d1b0d28ecf81b4",
+    "url": "/empyreaninvestments/static/js/main.49eae983.chunk.js"
   },
   {
     "revision": "b2bc5e7040dac9528b9d",
