@@ -1,11 +1,19 @@
+@import "../../../index.scss";
+
 .Info {
   margin: 0;
   padding: 100px 0;
   background-color: #e0f5ff;
+
   &_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+
+    @include tablet-md {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 40px;
+    }
   }
 
   &_map {
@@ -15,7 +23,13 @@
   }
 
   &_list {
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    @include tablet-md {
+      margin-top: 40px;
+      margin-bottom: 0;
+    }
   }
 
   &_item {

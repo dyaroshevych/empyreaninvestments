@@ -1,3 +1,9 @@
+@import "../../../index.scss";
+
 .Logo {
-  width: 285px;
+  width: 220px;
+
+  @include mobile-md {
+    width: 285px;
+  }
 }

@@ -5,7 +5,9 @@ import { logoWebp } from "../../../assets/img";
 import "./Logo.scss";
 
 const Logo = () => (
-  <img src={logoWebp} alt="Empyrean Investments" className="Logo" />
+  <a href="/" alt="Empyrean Investments">
+    <img src={logoWebp} alt="Empyrean Investments" className="Logo" />
+  </a>
 );
 
 export default Logo;

@@ -2,12 +2,13 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 
 import { Wrapper } from "../../../hoc";
+import { Mobile } from "./";
 import { Logo } from "../../UI";
 
 import "./Navigation.scss";
 
 const NavigationLinks = ({ links, location }) => (
-  <ul className="Navigation_links">
+  <ul className="Navigation_list">
     {links.map(({ name, link }) => (
       <li
         key={link}
@@ -39,12 +40,13 @@ const Navigation = () => {
           <li className="Navigation_linksContainer">
             <NavigationLinks links={links.slice(0, 2)} location={location} />
           </li>
-          <li>
+          <li className="Navigation_logoContainer">
             <Logo />
           </li>
           <li className="Navigation_linksContainer">
             <NavigationLinks links={links.slice(2)} location={location} />
           </li>
+          <Mobile links={links} />
         </ul>
       </Wrapper>
     </nav>

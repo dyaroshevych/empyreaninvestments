@@ -1,3 +1,5 @@
+@import "../../../index.scss";
+
 .Navigation {
   position: sticky;
   z-index: 4;
@@ -8,14 +10,40 @@
   left: 0;
 
   &_container {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+
+    @include tablet-lg {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+    }
   }
 
-  &_links {
-    &Container {
-      margin: 0 50px;
+  &_logoContainer {
+    display: flex;
+    align-items: center;
+    padding: 3px 0;
+  }
+
+  &_list {
+    display: flex;
+
+    li:not(:last-of-type) {
+      margin-right: 30px;
+
+      @include desktop-sm {
+        margin-right: 50px;
+      }
+    }
+  }
+
+  &_linksContainer {
+    display: none;
+
+    @include tablet-lg {
+      display: block;
+      margin: 0 30px;
 
       &:first-of-type {
         margin-left: 0;
@@ -29,10 +57,8 @@
       }
     }
 
-    display: flex;
-
-    li:not(:last-of-type) {
-      margin-right: 50px;
+    @include desktop-sm {
+      margin: 0 50px;
     }
   }
 
