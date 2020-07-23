@@ -1,5 +1,5 @@
 {
-  "homepage": "/empyreaninvestments",
+  "homepage": "/",
   "name": "empyreaninvestments",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +13,8 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "react-scroll": "^1.7.16"
+    "react-scroll": "^1.8.0",
+    "react-snap": "^1.23.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,7 +22,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "postbuild": "react-snap"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -11,5 +11,6 @@ React libraries used:
 
 - react-router-dom
 - react-scroll
+- react-snap
 
 Deployed with: GitHub Pages
